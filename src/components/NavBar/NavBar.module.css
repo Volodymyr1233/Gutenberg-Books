@@ -1,0 +1,39 @@
+.navbar_background {
+    width: 100%;
+    background: black;
+    height: 10%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_background h1 {
+    margin: 0 0 0 5%;
+}
+
+
+
+.navbar_links {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin-right: 7%;
+}
+
+.navbar_links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar_links a:hover {
+    color: orange;
+    transform: translateY(-2px);
+    transition: 0.7s;
+}
+
+
+
