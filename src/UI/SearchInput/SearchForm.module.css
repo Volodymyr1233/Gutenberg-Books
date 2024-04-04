@@ -24,3 +24,9 @@
     left: 16%;
     top: 13.8%;
 }
+
+@media screen and (max-width: 970px) {
+    .searchIcon {
+        top: 14%;
+    }
+}

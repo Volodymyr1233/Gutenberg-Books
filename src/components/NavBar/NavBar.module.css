@@ -18,15 +18,16 @@
     display: flex;
     align-items: center;
     width: 20%;
-    justify-content: space-around;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
-    margin-right: 7%;
+    margin-right: 5%;
+
 }
 
 .navbar_links a {
     text-decoration: none;
     color: inherit;
+    margin-left: 5%;
 }
 
 .navbar_links a:hover {
@@ -36,4 +37,21 @@
 }
 
 
+@media screen and (max-width: 970px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    .navbar_links {
+        width: 40%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar_links {
+        width: 45%;
+        font-size: 17px;
+    }
+}
 
