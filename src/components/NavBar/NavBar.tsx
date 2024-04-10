@@ -1,13 +1,14 @@
 import React from "react";
 import cl from "./NavBar.module.css";
+import {Link} from "react-router-dom";
 
 const NavBar = () => {
     return (
         <div className={cl.navbar_background}>
             <h1>Gutenberg Books</h1>
             <div className={cl.navbar_links}>
-                <a href="#">All books</a>
-                <a href="#">Favourite books</a>
+                <Link to="/books">All books</Link>
+                <Link to="/favourite">Favourite books</Link>
             </div>
         </div>
     )

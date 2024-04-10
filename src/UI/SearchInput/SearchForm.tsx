@@ -5,7 +5,7 @@ import { FaSearch } from "react-icons/fa";
 
 const SearchForm = (props: React.ComponentPropsWithoutRef<"input">) => {
     return (
-        <form className={cl.searchForm}>
+        <form className={cl.searchForm} onSubmit={event => event.preventDefault()}>
             <span className={cl.searchIcon}><FaSearch/></span>
             <input {...props} className={cl.searchInput}/>
         </form>
