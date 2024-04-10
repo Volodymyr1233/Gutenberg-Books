@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Gutenberg-Books/static/css/main.1893d1a6.css",
+    "main.js": "/Gutenberg-Books/static/js/main.5b16c120.js",
+    "static/js/453.357ca4ff.chunk.js": "/Gutenberg-Books/static/js/453.357ca4ff.chunk.js",
+    "index.html": "/Gutenberg-Books/index.html",
+    "main.1893d1a6.css.map": "/Gutenberg-Books/static/css/main.1893d1a6.css.map",
+    "main.5b16c120.js.map": "/Gutenberg-Books/static/js/main.5b16c120.js.map",
+    "453.357ca4ff.chunk.js.map": "/Gutenberg-Books/static/js/453.357ca4ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1893d1a6.css",
+    "static/js/main.5b16c120.js"
+  ]
+}
