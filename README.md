@@ -1,14 +1,31 @@
-# This is my "Gutenberg Books" library build on React using TypeScript, React Router and <a href="https://gutendex.com/">Gutendex API</a>
+# Web Library with Gutendex API
 
-🧑‍💻Functionality:
+## About
+Online library that connects to Gutendex API to show list of books. There is favourite books section where you can add favourite books and button on each book that allows you to read them.
 
-        ✅ App gets data (100 books) from our API and shows it beautifully to user
-        
-        ✅ User can find specific book with search bar in all books section and also in favourite books section
-        
-        ✅ If user likes the book he can add it to favourite section and also remove it from this section
-        
-        ✅ User can directly read every book on the page
+![image](https://github.com/user-attachments/assets/00c56f63-fd24-478a-9be3-4c8030a19cb7)
 
-Hope you enjoy my project🙌
+
+--------------------------------------
+
+![image](https://github.com/user-attachments/assets/bfeeb1c8-a49f-488b-9c13-ae6d33490a33)
+
+
+## Setup
+
+To run web library locally:
+1. Clone the repository:
+   
+    ```
+   git clone https://github.com/Volodymyr1233/Gutenberg-Books.git
+    ```
+2. Install dependencies:
+    ```
+    npm install
+    ```
+3. Run project:
+    ```
+    npm start
+    ```
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
